@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Russia Classic, Extra Bold';
+    src: url(../fonts/Bezier_Sans_ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Russia Classic, Regular';
+    src: url(../fonts/Bezier_Sans_Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Riviera, Regular';
+    src: url(../fonts/Riviera.otf);
+}
+
+html, body {
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Russia Classic, Regular';
+    font-size: 30px;
+    font-weight: 800;
+    color: #c2a075;
+    margin: 5%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+h1.bottom {
+    font-family: 'Riviera, Regular';
+    font-size: 60px;
+    margin-right: 10px;
+    white-space: nowrap;
+    color: #a37a43;
+}
+
+.footer-button {
+    border-radius: 50%;
+    border: none;
+    background-color: #a37a43;
+    font-size: 18px;
+    color: white;
+    padding: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.footer-button:hover {
+    background-color: #905f34;
+}
+
+#particle-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Russia Classic, Regular';
+    font-size: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #d89339d5;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(180deg, #ffffff, #e6e6e6ad, #a5a5a5d2);
+    background-size: 450% 450%;
+}
