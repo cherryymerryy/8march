@@ -1,7 +1,7 @@
 const canvas = document.getElementById('particle-canvas');
 const button = document.getElementById('fireworkButton');
 
-const gravity = 0.11;
+const gravity = 0.135;
 const bounceFactor = 0.4;
 
 function createFireworkEffect(x, y) {
