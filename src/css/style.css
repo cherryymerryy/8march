@@ -87,6 +87,6 @@ p {
 
 img.bg {
     z-index: -10;
-    opacity: 20%;
+    opacity: 30%;
     background-image: url(../images/flowers.png);
 }
