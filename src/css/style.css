@@ -37,6 +37,7 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
+    z-index: 20;
 }
 
 h1.bottom {
@@ -81,12 +82,12 @@ p {
     font-size: 20px;
     font-weight: 600;
     white-space: nowrap;
-    color: #d89339d5;
+    color: #915b15d5;
     margin: 0;
+    z-index: 20;
 }
 
 img.bg {
-    z-index: -10;
     opacity: 30%;
     background-image: url(../images/flowers.png);
 }
