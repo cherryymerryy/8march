@@ -85,7 +85,8 @@ p {
     margin: 0;
 }
 
-body {
-    background: linear-gradient(180deg, #ffffff, #e6e6e6ad, #a5a5a5d2);
-    background-size: 450% 450%;
+img.bg {
+    z-index: -10;
+    opacity: 20%;
+    background-image: url(../images/flowers.png);
 }
